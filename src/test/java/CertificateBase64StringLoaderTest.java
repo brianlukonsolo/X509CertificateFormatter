@@ -8,7 +8,7 @@ import static org.hamcrest.core.IsEqual.equalTo;
 public class CertificateBase64StringLoaderTest {
     final String certificateStringFile = "src/test/resources/dummyX509CertificateString";
     @Test
-    public void itShouldLoadCertificateBase64StringWithoutModifyingIt() throws IOException {
+    public void itShouldLoadCertificateBase64StringFromAFileWithoutModifyingTheContent() throws IOException {
         String expectedString = "abcde";
         String loadedX509CertBas64String = new LoadCertificateBase64String().loadStringFromFile(certificateStringFile);
 
