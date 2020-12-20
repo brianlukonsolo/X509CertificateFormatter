@@ -7,7 +7,7 @@ public class LoadCertificateBase64String {
 
     public String loadStringFromFile(String filePath) throws IOException {
         String fileContent = new String(Files.readAllBytes(Paths.get(filePath)), StandardCharsets.UTF_8);
-        return fileContent;
+        return fileContent.trim();
 
     }
 
