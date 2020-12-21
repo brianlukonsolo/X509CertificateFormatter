@@ -1,5 +1,5 @@
 # Brian Lukonsolo's X590CertificateFormatter  
-  An application to convert X509 base64 single-line strings into standard X509 certificates.
+  A personal application I made to convert X509 base64 single-line strings into standard X509 certificates.
 
  To run the application, follow the instructions below:
 
