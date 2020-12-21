@@ -1,5 +1,5 @@
-import com.brianlukonsolo.FormatInto64CharacterLines;
-import com.brianlukonsolo.LoadCertificateBase64String;
+import com.brianlukonsolo.operations.FormatInto64CharacterLines;
+import com.brianlukonsolo.operations.LoadCertificateBase64String;
 import org.junit.Test;
 import java.io.IOException;
 

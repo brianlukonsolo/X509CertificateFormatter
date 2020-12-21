@@ -1,5 +1,9 @@
 package com.brianlukonsolo;
 
+import com.brianlukonsolo.operations.AddX509StartAndEndLines;
+import com.brianlukonsolo.operations.FormatInto64CharacterLines;
+import com.brianlukonsolo.operations.LoadCertificateBase64String;
+
 import java.io.IOException;
 
 public class Application {

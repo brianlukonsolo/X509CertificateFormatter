@@ -1,4 +1,4 @@
-package com.brianlukonsolo;
+package com.brianlukonsolo.operations;
 
 public class AddX509StartAndEndLines {
 
