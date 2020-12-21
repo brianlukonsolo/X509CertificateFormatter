@@ -1,3 +1,5 @@
+import com.brianlukonsolo.AddX509StartAndEndLines;
+import com.brianlukonsolo.LoadCertificateBase64String;
 import org.junit.Test;
 import java.io.IOException;
 

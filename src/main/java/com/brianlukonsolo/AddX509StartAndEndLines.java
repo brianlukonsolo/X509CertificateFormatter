@@ -1,3 +1,5 @@
+package com.brianlukonsolo;
+
 public class AddX509StartAndEndLines {
 
     public String encapsulateCert(String formattedCertificateBase64String) {

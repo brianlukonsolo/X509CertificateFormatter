@@ -1,3 +1,5 @@
+package com.brianlukonsolo;
+
 public class FormatInto64CharacterLines {
     public String format(int numberOfCharsPerLine, String loadedX509CertBas64String) {
         StringBuilder stringBuilder = new StringBuilder();
