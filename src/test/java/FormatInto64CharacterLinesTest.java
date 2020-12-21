@@ -9,7 +9,7 @@ import static org.hamcrest.core.IsEqual.equalTo;
 
 public class FormatInto64CharacterLinesTest {
     final String formattedCertificateStringFile = "src/test/resources/formattedCertificateBase64String";
-    final String certificateStringFile = "src/test/resources/dummyX509CertificateString";
+    final String certificateStringFile = "src/test/resources/unformattedBase64CertificateSingleLineString";
 
     @Test
     public void itShouldFormatAnyStringInto64CharacterLines() throws IOException {
